@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kainos Hotels Booking</title>
+	<link rel="stylesheet" type="text/css" href="booking.css">
+</head>
+<body>
+	<div class="book">
+<form method="post">
+	<h1><b>Booking</b></h1>
+	<br>
+	Name:<br>
+	<input type="text" name="name" placeholder="Enter Your Name"><br>
+	E-mail:<br>
+	<input type="text" name="email" placeholder="Enter your E-mail"><br>
+	Mobile:<br>
+	<input type="text" name="mobile" placeholder="Enter your Contact Number"><br>
+	Check-in:<input type="datetime-local" name="checkin"><br>
+	Check-out:<input type="datetime-local" name="checkout"><br>
+	<select name="room">
+		<option value="A/C">A/C</option>
+		<option value="Non A/C">Non-A/C</option>
+	</select>
+	<select name="guest">
+		<option value="single">Single</option>
+		<option value="double">Double</option>
+		<option value="triple">Triple</option>
+	</select><br>
+	<br>
+	<br>
+	<a href="payment.html">
+		<input type="submit" name="Book">
+	</a>
+	<input type="reset" name="Reset">
+</form>
+</div>
+</body>
+</html>

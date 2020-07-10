@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kainos Payment Portal</title>
+	<link rel="stylesheet" type="text/css" href="payment.css">
+</head>
+<body>
+<div class="payment">
+	<form>
+		<h1>Payment</h1>
+		<br>
+		Card Type:
+		<select name="cardtype">
+			<option value="credit">Credit Card</option>
+			<option value="debit">Debit Card</option>
+		</select><br>
+		<br>
+		Card Number:
+		<input type="text" name="cardnumber" placeholder="Enter Card Number" maxlength="16" minlength="16"><br>
+		Card Holder Name:
+		<input type="text" name="cardholder" placeholder="Enter Card Holder Name" minlength="8"><br>
+		CVV:
+		<input type="text" name="cvv" placeholder="Enter CVV" maxlength="3" minlength="3"><br>
+		Pin:
+		<input type="password" name="pin" placeholder="Enter Pin Number"><br>
+		<a href="index.html">
+		<input type="button" value="Pay" name="OK" onclick="fun()"></a>
+		<input type="reset" name="Reset">
+</form>
+</div>
+<script type="text/javascript">
+	function fun() {
+		alert("Your Payment is Successful");
+	}
+</script>
+</body>
+</html>

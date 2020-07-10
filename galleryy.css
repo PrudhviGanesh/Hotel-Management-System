@@ -1,0 +1,30 @@
+
+	body{
+		margin:0;
+		font-family:Arial,sans-serif;
+		background-color: powderblue;
+
+	}
+	.topnav{
+		overflow: hidden;
+		background-color:#444;
+
+	}
+	.topnav a{
+		float: center;
+		color:orange;
+		text-align: center;
+		padding:30px 24px;
+		font-size: 30px;
+	}
+	
+	
+	
+	.gall img{
+	height: 250px;
+	width:297px;
+	border: 5px;
+	border-radius: 20px;
+    }
+    .gall img:hover {
+	transform: scale(1.5);
